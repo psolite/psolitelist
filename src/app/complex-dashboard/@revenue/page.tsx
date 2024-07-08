@@ -8,7 +8,8 @@ import {
 } from "@/components/ui/card"
 
 
-const Revenue = () => {
+const Revenue = async () => {
+    await new Promise((resolve) => setTimeout(resolve, 4000))
     return (
         <Card  className="m-3">
             <CardHeader>
